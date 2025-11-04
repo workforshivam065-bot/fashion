@@ -1,0 +1,338 @@
+*{
+        padding: 0;
+        margin: 0;
+    }
+     header{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(96, 93, 93);
+        color: aliceblue;
+        padding: 10px;
+    }
+     .h1{ 
+        padding-right: 20px;
+     }
+     .bi-bi{
+        padding-right: 20px;
+     }
+     article{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: sticky;
+        top: 0;
+        background-color: aliceblue;
+    }
+    input{
+        border: solid 1px;
+        width: 200px;
+        height: 10px;
+        background-color: transparent;
+        border: none;
+        padding: 20px;
+    }
+    .photo{
+        background-image: url(https://marcnolan.com/cdn/shop/articles/mens-casual-winter-fashion.jpg?v=1603918215&width=2048);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px;
+        color: aliceblue;
+        background-color: aqua;
+    }
+    .text{
+        font-size: 40px;
+        padding-top: 100px;
+        margin-left: 700px;
+    }
+    .fashion{
+        font-size: 70px;
+        margin-left: 700px;
+        height: 100vh;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 20px;
+    }
+    button{
+        border: solid 1px;
+        background-color: transparent ;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .clothes::first-letter{
+        color: brown;
+    }
+    input::placeholder{
+        padding-left: 10px;
+        font-size: 20px;
+        align-items: center;
+    }
+    .input{
+        border: solid 1px;
+        height: 40px;
+        border-color: gray;
+    }
+    input{
+        border: none;
+    }
+    .t2{
+        padding-right: 20px;
+        font-size: larger;
+        padding-top: 10px;
+        display: inline-block;
+    }
+    .bi-search{
+        margin-right:10px ;
+        color: gray;
+    }
+    .h3{
+        padding-left: 20px;
+    }
+    .box1{
+        border: solid 1px;
+        height: 150px;
+        width: 250px;
+        text-align: center;
+        font-size: larger;
+        padding-top: 30px;
+        background-color: rgb(236, 240, 240);
+        border-color: rgb(227, 229, 231);
+    }
+    .box2{
+        border: solid 1px;
+        height: 150px;
+        width: 250px;
+        text-align: center;
+        font-size: larger;
+        padding-top: 30px;
+        background-color: rgb(236, 240, 240);
+        border-color: rgb(227, 229, 231);
+    }
+    .box3{
+        border: solid 1px;
+        height: 150px;
+        width: 250px;
+        text-align: center;
+        font-size: larger;
+        padding-top: 30px;
+        background-color: rgb(236, 240, 240);
+        border-color: rgb(227, 229, 231);
+    }
+    .box4{
+        border: solid 1px;
+        height: 150px;
+        width: 250px;
+        text-align: center;
+        font-size: larger;
+        padding-top: 30px;
+        background-color: rgb(236, 240, 240);
+        border-color: rgb(227, 229, 231);
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        padding: 70px;
+    }
+    figcaption{
+        border: solid 1px;
+        border-color: rgb(227, 229, 231);
+        height: 650px;
+        margin-top: 30px;
+        background-image: url(https://static.vecteezy.com/system/resources/previews/004/701/919/non_2x/curved-letter-a-logo-concept-isolated-on-white-background-vector.jpg);
+        background-size: 3000px;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    .square{
+        border: 1px ;
+        height: 200px;
+    
+    }
+    .square1{
+        border: solid 1px;
+        height: 300px;
+        margin-left: 700px;
+        margin-top: 100px;
+        background-color: rgb(60, 58, 58);
+        color: rgb(193, 195, 196);
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    .man{
+        position:absolute ;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .border3{
+        border: solid 1px;
+        padding: 44px;
+        text-align: center;
+        align-items: center;
+        border-top: none;
+        border-bottom: none;
+    }
+    .newfashion{
+        font-size: larger;
+    }
+    .brandcorta{
+        font-size: 40px;
+    }
+    .dollar{
+        font-size: 40px;
+        color: aliceblue;
+    }
+    .para{
+        font-size: larger;
+    }
+    .border1{
+        height: 30px;
+        color: aliceblue;
+        border: solid 1px;
+        display: flex;
+        font-size: 30px;
+        padding: 10px;
+    }
+    figure{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 280px;
+        margin-top: 40px;
+    }
+    figcaption{
+        display: flex;
+    }
+    .square2{
+        border: solid 1px;
+        height: 100px;
+        margin-top: 70px;
+        width: 500px;
+        display: flex;
+    }
+    .slash{
+        font-size: 100px;
+    }
+    .arrival{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 100px;
+    }
+    .dabba1{
+        height: 400px;
+        width: 300px;
+        padding: 10px;
+    }
+    .dabba2{
+    
+        height: 400px;
+        width: 300px;
+        padding: 10px;
+    }
+    .dabba3{
+        
+        height: 400px;
+        width: 300px;
+        padding: 10px;
+    }   
+    .dabba4{
+       
+        height: 400px;
+        width: 300px;
+        padding: 10px;
+    }
+    section{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        text-align: center;
+        font-size: large;
+        color: rgb(167, 146, 146);
+    }
+    .one{
+        border: solid 1px;
+        width: 550px;
+        background-image: url(https://thumbs.dreamstime.com/b/fashion-style-serious-cool-man-casual-trendy-clothes-confident-mindset-png-transparent-isolated-mockup-284592085.jpg);
+        background-size:400px;
+        background-repeat: no-repeat;
+        
+    }
+    .two{
+        border: solid 1px;
+        height: 400px;
+        width: 550px;
+        background-image: url(https://thumbs.dreamstime.com/b/fashion-happy-real-woman-casual-trendy-clothes-smile-positive-mindset-png-transparent-mockup-isolated-284591263.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .arrival::first-letter{
+        color: chocolate;
+    }
+    .boxes{
+        margin-top: 100px;
+        text-align: end;
+    }
+    .boot{
+        display: flex;
+        /* height: 400px; */
+        width: 550px;
+        right: 0%;
+    }
+     footer{
+        background-color: rgb(67, 64, 64);
+        color: white;
+        display: grid;
+        grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr ;
+        margin-top: 20px;
+        padding: 40px;
+        margin-top: 100px;
+    }
+    .foot{
+       display: block;
+       margin-bottom: 10px;
+    }
+    .icon span{
+        display: inline
+    }
+    .border2{
+        padding-right: 15px;
+        border: solid 1px;
+        padding: 2px;
+        background-color: aliceblue;
+        color: black;
+    }
+    ol{
+        list-style-type: none;
+    }
+    .boot{
+        position: absolute;
+        right: 37vb;
+        font-size: 25px;
+        margin-left: 5px;
+    }
+    .boot i{
+        padding: 2px;
+        margin-left: 2px;
+    }
+    .new {
+        font-size: 25px;
+        color: rgb(165, 168, 170);
+        margin-top: 100px;
+        position: relative;
+    }
+    .garg{
+        font-size: 40px;
+        color: rgb(112, 115, 119);
+    }
+    .best{
+        font-size: 20px;
+        color: rgb(112, 115, 119);
+    }
+    .minecart{
+        border: solid 1px;
+        color: rgb(112, 115, 119);
+    }
+    .two2{
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+    style
