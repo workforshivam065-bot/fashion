@@ -9,6 +9,15 @@
         color: aliceblue;
         padding: 10px;
     }
+    .h3:hover{
+        color: brown;
+    }
+    .nav-icon:hover{
+        color: brown;
+    }
+    .h1:hover{
+        color: brown;
+    }
      .h1{ 
         padding-right: 20px;
      }
@@ -16,6 +25,7 @@
         padding-right: 20px;
      }
      article{
+        z-index: 1;
         display: flex;
         justify-content: space-around;
         padding: 20px;
@@ -81,6 +91,11 @@
         font-size: larger;
         padding-top: 10px;
         display: inline-block;
+    }
+    .t2:hover{
+        height: 15px;
+        padding: 10px;
+        background-color: rgb(134, 125, 125);
     }
     .bi-search{
         margin-right:10px ;
@@ -305,7 +320,7 @@
     }
     .boot{
         position: absolute;
-        right: 37vb;
+        right: 39vb;
         font-size: 25px;
         margin-left: 5px;
     }
