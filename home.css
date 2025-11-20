@@ -8,15 +8,22 @@
         background-color: rgb(96, 93, 93);
         color: aliceblue;
         padding: 10px;
+        cursor: pointer;
+    }
+    select{
+        background-color: rgb(96, 93, 93);
+        color: white;
+        margin-left: 2px;
+        font-size: small;
     }
     .h3:hover{
-        color: brown;
+        color: rgb(208, 65, 65);
     }
     .nav-icon:hover{
-        color: brown;
+        color: rgb(208, 65, 65);
     }
     .h1:hover{
-        color: brown;
+        color: rgb(208, 65, 65);
     }
      .h1{ 
         padding-right: 20px;
@@ -93,9 +100,11 @@
         display: inline-block;
     }
     .t2:hover{
-        height: 15px;
-        padding: 10px;
-        background-color: rgb(134, 125, 125);
+        /* font-size: 18px;
+        padding: 15px; */
+        /* background-color: rgb(134, 125, 125); */
+        color: rgb(208, 65, 65);
+        cursor: pointer;
     }
     .bi-search{
         margin-right:10px ;
@@ -113,6 +122,7 @@
         padding-top: 30px;
         background-color: rgb(236, 240, 240);
         border-color: rgb(227, 229, 231);
+        transition: all  0.5s ease-out;
     }
     .box2{
         border: solid 1px;
@@ -123,6 +133,7 @@
         padding-top: 30px;
         background-color: rgb(236, 240, 240);
         border-color: rgb(227, 229, 231);
+        transition: all  0.5s ease-out;
     }
     .box3{
         border: solid 1px;
@@ -133,6 +144,7 @@
         padding-top: 30px;
         background-color: rgb(236, 240, 240);
         border-color: rgb(227, 229, 231);
+        transition: all  0.5s ease-out;
     }
     .box4{
         border: solid 1px;
@@ -143,6 +155,18 @@
         padding-top: 30px;
         background-color: rgb(236, 240, 240);
         border-color: rgb(227, 229, 231);
+        transition: all  0.5s ease-out;
+
+    }
+    
+    .box1:hover,.box2:hover,.box3:hover,.box4:hover{
+        color: gray;
+        height: 180px;
+        width: 270px;
+        /* padding: 10px; */
+        margin: -10px;
+        padding-top: 40px;
+        cursor: pointer;
     }
     nav{
         display: flex;
@@ -207,6 +231,16 @@
         display: flex;
         font-size: 30px;
         padding: 10px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+    .border1:hover{
+        margin: -3px;
+        height: 40px;
+        width: ;
+        padding-top: 12px;
+        color: rgb(208, 65, 65);
+
     }
     figure{
         display: flex;
@@ -319,10 +353,28 @@
         list-style-type: none;
     }
     .boot{
-        position: absolute;
+        position:absolute;
         right: 39vb;
         font-size: 25px;
         margin-left: 5px;
+        transition: all 0.5s ease;
+    }
+    .boot1{
+        display: flex;
+        
+        position:absolute;
+        right: 18vb;
+        font-size: 25px;
+        margin-left: 5px;
+    }
+    .h-color:hover{
+        color: rgb(255, 65, 65);
+
+    }
+    .boot1 div{
+        border: 1px solid;
+        color: rgb(112, 115, 119);
+        padding: 2px;
     }
     .boot i{
         padding: 2px;
@@ -345,9 +397,13 @@
     .minecart{
         border: solid 1px;
         color: rgb(112, 115, 119);
+        
     }
     .two2{
         margin-top: 50px;
         margin-right: 20px;
+    }
+    .border2:hover{
+
     }
     style
